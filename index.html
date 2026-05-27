@@ -4,11 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML CSS</title>
+    <style>
+        body {
+            background-color: rgb(32 30 29 / 0.08);
+            padding: 40px 20px 10px 40px;
+            color: #26272b;
+
+        }
+        header {
+            background-color: rgb(255 209 179 / 0.78);
+            color: darkgray;
+            padding: 30px;
+            text-align: center;
+            border-radius: 12px;
+        }
+        nav a {
+            color: darkgray;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px
+        }
+        nav a:hover {
+            color: darkred;
+        }
+        section {
+            background: white;
+            margin: 30px 0;
+            padding:  25px;
+            border-radius: 12px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        #profile {
+            border-top: 5px solid cornflowerblue;
+        }
+        #courses {
+            border-top: 5px solid #ed64a2;
+        }
+        #register {
+            border-top: 5px solid #cfed64;
+        }
+
+    </style>
 </head>
 <body>
 
 <header>
-    <h1> Lexicon student portal</h1>
+    <h1 style="color:darkred" > Lexicon student portal</h1>
     <nav>
         <a href="#profile">Profile</a>
         <a href="courses">Courses</a>
